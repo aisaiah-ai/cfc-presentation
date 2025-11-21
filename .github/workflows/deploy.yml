@@ -26,5 +26,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: cfc-presentation
           directory: .
-          # Optional: Use wrangler-version to specify a specific version of Wrangler to use
-          # wrangler-version: '3'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          wranglerVersion: '3'

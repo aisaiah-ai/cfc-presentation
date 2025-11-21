@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIsaiah - Spiritual Fitness for CFC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Crimson+Text:ital,wght@0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-logo">AIsaiah</div>
+        <div class="nav-progress">
+            <span id="slide-counter">1 / 7</span>
+        </div>
+    </nav>
+
+    <!-- Slide Container -->
+    <div class="slides-container">
+
+        <!-- SLIDE 1: HERO -->
+        <section class="slide active" data-slide="1">
+            <div class="hero-bg">
+                <img src="assets/hero.png" alt="Prayer" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="slide-content hero-content">
+                <div class="badge fade-in-up" style="animation-delay: 0.2s">Couples for Christ</div>
+                <h1 class="fade-in-up" style="animation-delay: 0.4s">
+                    Meet <span class="highlight">AIsaiah</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up" style="animation-delay: 0.6s">
+                    Your Digital Companion for Spiritual Fitness
+                </p>
+                <div class="cta-group fade-in-up" style="animation-delay: 0.8s">
+                    <button class="btn-primary" onclick="nextSlide()">Discover How →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: THE PROBLEM -->
+        <section class="slide" data-slide="2">
+            <div class="slide-content centered">
+                <div class="stat-callout fade-in-up">
+                    <div class="stat-number">73%</div>
+                    <p>of Christians struggle to maintain daily spiritual habits</p>
+                </div>
+                <h2 class="fade-in-up" style="animation-delay: 0.3s">The Challenge</h2>
+                <p class="large-text fade-in-up" style="animation-delay: 0.5s">
+                    In a world of constant distractions, how do we keep our faith at the center?
+                </p>
+                <p class="fade-in-up" style="animation-delay: 0.7s">
+                    Members need tools that seamlessly integrate prayer, scripture, and spiritual accountability into
+                    their daily lives.
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: THE SOLUTION -->
+        <section class="slide" data-slide="3">
+            <div class="slide-content split-layout">
+                <div class="content-left fade-in-left">
+                    <h2>The Solution</h2>
+                    <h3 class="subheading">A Digital Spiritual Companion</h3>
+                    <p>AIsaiah combines the wisdom of Scripture with modern technology to help CFC members grow in their
+                        faith journey.</p>
+
+                    <div class="feature-pills">
+                        <div class="pill">📖 Daily Scripture</div>
+                        <div class="pill">🙏 Prayer Tracking</div>
+                        <div class="pill">📊 Spiritual Analytics</div>
+                        <div class="pill">🔔 Smart Reminders</div>
+                    </div>
+                </div>
+                <div class="content-right fade-in-right">
+                    <img src="assets/phone.png" alt="App Screenshot" class="floating-phone">
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: FOR MEMBERS -->
+        <section class="slide dark-slide" data-slide="4">
+            <div class="slide-content">
+                <div class="section-header fade-in-up">
+                    <span class="label">For Members</span>
+                    <h2>Tools to Grow in Spiritual Fitness</h2>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card fade-in-up" style="animation-delay: 0.2s">
+                        <div class="icon-circle">📖</div>
+                        <h4>Daily Scripture</h4>
+                        <p>Personalized readings aligned with the liturgical calendar and CFC formation</p>
+                    </div>
+                    <div class="feature-card fade-in-up" style="animation-delay: 0.4s">
+                        <div class="icon-circle">🙏</div>
+                        <h4>Prayer Reminders</h4>
+                        <p>Gentle nudges for the Angelus, Rosary, and personal prayer times</p>
+                    </div>
+                    <div class="feature-card fade-in-up" style="animation-delay: 0.6s">
+                        <div class="icon-circle">📊</div>
+                        <h4>Spiritual Analytics</h4>
+                        <p>Track your prayer consistency, scripture engagement, and growth over time</p>
+                    </div>
+                    <div class="feature-card fade-in-up" style="animation-delay: 0.8s">
+                        <div class="icon-circle">🤝</div>
+                        <h4>Community Connection</h4>
+                        <p>Stay connected with your household and receive formation materials</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: FOR LEADERSHIP -->
+        <section class="slide" data-slide="5">
+            <div class="slide-content split-layout reverse">
+                <div class="content-left fade-in-left">
+                    <img src="assets/app_analytics.png" alt="Analytics Dashboard" class="dashboard-img">
+                </div>
+                <div class="content-right fade-in-right">
+                    <span class="label">For Leadership</span>
+                    <h2>Empowering Governance & Pastoral Care</h2>
+                    <p class="large-text">Give leaders the insights they need to shepherd effectively</p>
+
+                    <ul class="checklist">
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>Community Health Insights</strong>
+                                <p>See engagement patterns and spiritual vitality metrics</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>Resource Distribution</strong>
+                                <p>Push formation materials directly to members</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <div>
+                                <strong>Event Coordination</strong>
+                                <p>Schedule and track household activities</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: MISSION -->
+        <section class="slide mission-slide" data-slide="6">
+            <div class="mission-bg">
+                <img src="assets/community.png" alt="Community" class="mission-image">
+                <div class="mission-overlay"></div>
+            </div>
+            <div class="slide-content centered mission-content">
+                <h2 class="fade-in-up">Accelerating Our Mission</h2>
+                <p class="large-text fade-in-up" style="animation-delay: 0.2s; max-width: 700px; margin: 0 auto 3rem;">
+                    "Go into all the world and preach the gospel to all creation." — Mark 16:15
+                </p>
+
+                <div class="mission-stats">
+                    <div class="stat-item fade-in-up" style="animation-delay: 0.4s">
+                        <div class="stat-icon">🌍</div>
+                        <h3>Evangelization</h3>
+                        <p>Reach more souls through accessible digital tools</p>
+                    </div>
+                    <div class="stat-item fade-in-up" style="animation-delay: 0.6s">
+                        <div class="stat-icon">🔥</div>
+                        <h3>Formation</h3>
+                        <p>Continuous access to spiritual growth resources</p>
+                    </div>
+                    <div class="stat-item fade-in-up" style="animation-delay: 0.8s">
+                        <div class="stat-icon">⛪</div>
+                        <h3>Unity</h3>
+                        <p>Connect the global CFC family</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: CALL TO ACTION -->
+        <section class="slide cta-slide" data-slide="7">
+            <div class="slide-content centered">
+                <h2 class="fade-in-up">Let's Build the Future Together</h2>
+                <p class="large-text fade-in-up" style="animation-delay: 0.2s">
+                    Join us in equipping every CFC member with tools for spiritual excellence
+                </p>
+
+                <div class="final-cta fade-in-up" style="animation-delay: 0.4s">
+                    <button class="btn-primary large">Partner With Us</button>
+                    <button class="btn-secondary large">Schedule a Demo</button>
+                </div>
+
+                <div class="contact-info fade-in-up" style="animation-delay: 0.6s">
+                    <p>Ready to bring AIsaiah to your community?</p>
+                    <a href="mailto:info@aisaiah.com" class="email-link">info@aisaiah.com</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Controls -->
+    <div class="slide-controls">
+        <button class="control-btn" onclick="prevSlide()" id="prevBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+        </button>
+        <button class="control-btn" onclick="nextSlide()" id="nextBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6" />
+            </svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
